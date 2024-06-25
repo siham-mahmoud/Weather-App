@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+ 
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    
+  <title>Weather</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg py-4  ">
+      <div class="container py-3  ">
+        <a class="   d-inline text-decoration-none" href="#"><img src="imgs/logo@2x.png" alt="logo " width="64" height="38"
+            class="me-2 float-start ">
+          <div class="logo-title text-white float-end ">
+            <h1 class="fs-6 fw-bolder   ">Weather</h1>
+            <p class=" fs-sm  fw-light ">tagline goes here</p>
+          </div>
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""><i class="fa-solid fa-bars navbar-toggler-icon text-white  "></i></span>
+        </button>  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3  ">
+            <li class="nav-item me-3">
+              <a class="nav-link  border-2 rounded-pill  border-info text-info" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link  " href="#">News</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Live camera</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+
+      <div class="container">
+        <div class=" bar input-group pt-5  ">
+
+          <input id="search" type="text" class="  rounded-pill  search position-relative" placeholder="Find your location"
+            aria-label="Username">
+          <button class=" position-absolute btn btn-info rounded-pill end-0 top-50  me-1 mx-1">Find</button>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="forecast-table"  >
+      <div class="container table-design  " id="forecast">
+     </div>
+   
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <div class=" bar input-group  sub  ">
+
+          <input type="text" class="  rounded-pill search position-relative" placeholder="Enter your email to subscribe....."
+            aria-label="Username">
+          <button class=" position-absolute btn btn-info rounded-pill end-0 bottom-0  me-1 mb-2">Subscribe</button>
+        </div>
+      
+      </div>
+      <div class="col-lg-3 offset-lg-1 col-md-12 offset-md-0">
+        <div class="social-links mt-3">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+      <p class="mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
